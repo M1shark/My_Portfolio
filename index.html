@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+      <div class="container header__container">
+        <a href="#hero" class="header__logo">
+          Portfolio
+        </a>
+        <nav class="nav" data-menu>
+          <ul class="nav__list list-reset">
+            <li class="nav__item"><a href="#hero" class="nav__link" data-menu-item>Home</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link" data-menu-item>Skills</a></li>
+            <li class="nav__item"><a href="#works" class="nav__link" data-menu-item>Works</a></li>
+            <li class="nav__item"><a href="#contacts" class="nav__link" data-menu-item>Contacts</a></li>
+          </ul>
+        </nav>
+        <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero" id="hero">
+        <div class="container hero__container">
+          <div class="hero__content" data-aos="fade-right">
+            <h1 class="hero__title">
+              Mirzak Mychail
+            </h1>
+            <p class="hero__descr">
+              I’m a <span class="hero__pos">Frontend developer</span>
+            </p>
+            <div class="hero__welcome">
+              Welcome to my portfolio
+            </div>
+          </div>
+          <div class="hero__img" data-aos="fade-left">
+            <img src="img/img.png" alt="portfolio img">
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2 class="title">
+            My skills
+          </h2>
+          <ul class="skills__list list-reset" data-aos="zoom-in">
+            <li class="skills__item">
+              <img src="img/html.png" alt="html" class="skills__img">
+              <div class="skills__content">
+                <h3 class="skills__info skills__info--html">
+                  HTML
+                </h3>
+                <p class="skills__descr">
+                  Hypertext Markup Language is a standardized system for tagging text files, which creates a structure
+                  for
+                  almost every page we find on the Internet. It is the basic building block required for website
+                  development.
+                </p>
+              </div>
+            </li>
+            <li class="skills__item">
+              <img src="img/css.png" alt="css" class="skills__img">
+              <div class="skills__content">
+                <h3 class="skills__info skills__info--css">
+                  CSS
+                </h3>
+                <p class="skills__descr">
+                  It is one of the most popular web development programming languages, which is used to create stylish
+                  and
+                  visually appealing website elements.
+                </p>
+              </div>
+            </li>
+            <li class="skills__item">
+              <img src="img/js.png" alt="js" class="skills__img">
+              <div class="skills__content">
+                <h3 class="skills__info skills__info--js">
+                  JS
+                </h3>
+                <p class="skills__descr">
+                  It is the world’s most popular lightweight and interpreted programming language. Also known
+                  as a scripting
+                  language for web pages. This language can be used for both client-side and server-side development.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="works" id="works">
+        <div class="container">
+          <h2 class="title">
+            My works
+          </h2>
+          <ul class="works__list list-reset" data-aos="fade-up">
+            <li class="works__item">
+              <a href="https://m1shark.github.io/CreateX2/" target="_blank" class="works__link">
+                <img src="img/work/createx.jpg" alt="CreateX">
+              </a>
+              <div class="works__info">
+                CreateX
+              </div>
+            </li>
+            <li class="works__item">
+              <a href="https://m1shark.github.io/Funiro/" target="_blank" class="works__link">
+                <img src="img/work/funiro.jpg" alt="Funiro">
+              </a>
+              <div class="works__info">
+                Funiro
+              </div>
+            </li>
+            <li class="works__item">
+              <a href="https://m1shark.github.io/Sweet-chest/" target="_blank" class="works__link">
+                <img src="img/work/sweet-chest.jpg" alt="Sweet-chest">
+              </a>
+              <div class="works__info">
+                Sweet chest
+              </div>
+            </li>
+            <li class="works__item">
+              <a href="https://m1shark.github.io/infinizal/" target="_blank" class="works__link">
+                <img src="img/work/infinizal.jpg" alt="Infinizal">
+              </a>
+              <div class="works__info">
+                Infinizal
+              </div>
+            </li>
+            <li class="works__item">
+              <a href="https://m1shark.github.io/fanatic/" target="_blank" class="works__link">
+                <img src="img/work/fanatic.jpg" alt="Fanatic">
+              </a>
+              <div class="works__info">
+                Fanatic
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="container contacts__container">
+          <h2 class="title">Contacts</h2>
+          <p class="contacts__text">
+            Want to know more or just chat?
+            You are welcome!
+          </p>
+          <a href="https://t.me/DayS1S" class="contacts__link">
+            Send message
+          </a>
+          <ul class="contacts__list list-reset">
+            <li class="contacts__item">
+              <a href="https://www.instagram.com/days1s/" class="contacts__item-link" target="_blank">
+                <svg>
+                  <use xlink:href="img/sprite.svg#inst"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a href="https://github.com/M1shark" class="contacts__item-link" target="_blank">
+                <svg>
+                  <use xlink:href="img/sprite.svg#github"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a href="https://t.me/DayS1S" class="contacts__item-link" target="_blank">
+                <svg>
+                  <use xlink:href="img/sprite.svg#tg"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__content">
+          Copyright © <a href="https://github.com/M1shark" class="footer__link" target="_blank">M1zharc</a>, 2023. All
+          rights reserved.
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
